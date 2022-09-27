@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    align-items: center;
+}
+
+
+.cabecalho__pesquisa {
+    margin-left: 2rem;
+    position: relative;
+}
+
+.cabecalho__pesquisa--input {
+    height: 44px;
+    width: 293px;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    font-size: var(--FontRale);
+}
+
+.cabecalho__pesquisa--lupa {
+    position: absolute;
+    top: 31%;
+    right: 6%;
+} 
+
+.cabecalho__button {
+    color: var(--BlueColorAll);
+    border: 2px solid var(--BlueColorAll);
+    background-color: var(--WhiteColor);
+    padding: 1rem 4rem;
+    font-size: var(--FontRale);
+}

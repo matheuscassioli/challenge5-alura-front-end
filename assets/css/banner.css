@@ -1,0 +1,33 @@
+.banner{
+    height: 350px;
+    background-image: url(./../img/banner.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: 'Raleway', sans-serif;   
+}
+
+.banner__conteudo{
+    position: absolute;
+    color: var(--WhiteColor);
+    left: 10%;
+    bottom: 12%;
+}
+
+.banner__titulo{
+    font-weight: 700;
+    font-size: 52px;
+}
+.banner__subtitulo{
+    font-size: 22px;
+    margin: 1rem 0;
+}
+
+.banner__button{
+    background-color: var(--BlueColorAll);
+    color: var(--WhiteColor);
+    padding: 1rem 3rem;
+    border: none;
+    font-family: 1.5rem;
+}

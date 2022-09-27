@@ -1,0 +1,36 @@
+.star-wars {
+    padding: 3rem 10%;
+}
+
+.star-wars__nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.star-wars__titulo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.star-wars__ver {
+    font-size: 1rem;
+    color: var(--BlueColorAll);
+}
+
+.star-wars__ver img {
+vertical-align: bottom;
+}
+
+.star-wars__conteudo{
+    display: flex; 
+    justify-content: space-around;
+    gap: 10px;
+    flex-flow: row wrap;
+    margin-top: 1rem;
+}
+
+.star-wars__preco{
+    font-weight: bold;
+    margin: .5rem 0;
+}
