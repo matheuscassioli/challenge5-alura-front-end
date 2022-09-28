@@ -1,76 +1,76 @@
-.star-wars {
+.console {
     padding: 3rem 10%; 
 }
 
-
-.star-wars__nav {
+.console__nav {
     align-items: center;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding-bottom: 1rem;
 }
 
-.star-wars__titulo {
+.console__titulo {
     font-weight: bold;
     font-size: 2rem;
 }
 
-.star-wars__ver {
+.console__ver {
     font-size: 1rem;
     color: var(--BlueColorAll);
 }
 
-.star-wars__ver img {
+.console__ver img {
     vertical-align: bottom;
     margin-left: 7px;
 }
 
-.star-wars__conteudo {
+.console__conteudo {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     flex-flow: row wrap;
 }
 
-.star-wars__preco {
+.console__preco {
     font-weight: bold;
     margin: .5rem 0;
 }
 
-.star-wars__itens a{
-    text-decoration: none;
+.console__itens a{
+    text-decoration: none; 
 }
 
 /*-----media queries-----*/
 
-
 @media screen and (min-width:0) {
 
-    .star-wars__itens:nth-child(5),
-    .star-wars__itens:nth-child(6) {
+    .console__itens:nth-child(5),
+    .console__itens:nth-child(6) {
         display: none;
     }
 }
 
 @media screen and (min-width:1440px) {
 
-    .star-wars__itens:nth-child(5),
-    .star-wars__itens:nth-child(6) {
+    .console__itens:nth-child(5),
+    .console__itens:nth-child(6) {
         display: block;
     }
 }
 
+/*-----media queries-----*/
+
 @media screen and (max-width:412px) {
-    .star-wars__itens {
+    .console__itens {
         width: 48%;
        }
-    .star-wars__itens img{
+    .console__itens img{
      width: 100%;
     }
 }
 
 @media screen and (max-width:1060px) {
-    .star-wars {
+    .console {
         padding: 3rem 5%;
     }
 }

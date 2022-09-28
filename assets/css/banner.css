@@ -1,11 +1,7 @@
 .banner{
     height: 350px;
-    background-image: url(./../img/banner.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    font-family: 'Raleway', sans-serif;   
+    background: url(./../img/banner.jpg) no-repeat center / cover;  
+    position: relative; 
 }
 
 .banner__conteudo{
@@ -30,4 +26,23 @@
     padding: 1rem 3rem;
     border: none;
     font-family: 1.5rem;
+}
+
+/*-----media queries------*/
+
+
+@media screen and (max-width:770px){
+    .banner__conteudo{
+        left: 3%;
+    }
+    .banner__titulo{
+        font-size:26px;
+    }
+    .banner__subtitulo{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .banner__button{
+        padding: 1rem 2rem;
+    }
 }

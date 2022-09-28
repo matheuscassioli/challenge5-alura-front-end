@@ -1,0 +1,95 @@
+.rodape {
+    display: flex;
+    padding: 3rem 5%;
+    justify-content: space-between;
+    background-color: var(--footerBg);
+    position: relative;
+}
+
+.rodape__conteudo {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.rodape__logo {
+    width: 11rem;
+    height: fit-content;
+}
+
+.rodape__item {
+    list-style-type: none;
+    margin: .8rem;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--BlackColor);
+    font-size: .9rem;
+}
+
+.rodape__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.rodape__formulario p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rodape__formulario--nome {
+    height: 2rem;
+    border: none;
+    box-shadow: 0px 0px 8px -6px;
+}
+
+.rodape__formulario--mensagem {
+    height: 4.5rem;
+    border: none;
+    box-shadow: 0px 0px 8px -6px;
+}
+
+.rodape__formulario--button {
+    background-color: var(--BlueColorAll);
+    color: var(--WhiteColor);
+    padding: 10px 1rem;
+    border: none;
+    width: 150px;
+}
+
+/*-----media queries-----*/
+
+@media screen and (max-width:831px) {
+    .rodape__conteudo {
+        flex-direction: column;
+    }
+
+    .rodape__formulario {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .rodape {
+        flex-direction: column;
+    }
+
+    .rodape__formulario,
+    .rodape__conteudo {
+        width: 100%;
+    }
+
+    .rodape__conteudo {
+        margin-bottom: 1rem;
+    }
+
+    .rodape__conteudo img {
+        margin: auto;
+    }
+    .rodape__item{
+        text-align: center;
+    }
+}

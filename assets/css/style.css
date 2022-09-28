@@ -4,10 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
+/*--------variaveis cores--------*/
 :root {
     --BlueColorAll: #2A7AE4;
     --WhiteColor: #fff;
     --fontRale: 'Raleway', sans-serif;
+    --inputBg: rgb(240, 240, 240);
+    --footerBg:#EAF2FD;
+    --BlackColor:#000;
 }
+
