@@ -1,0 +1,19 @@
+.assinatura{
+    text-align: center;
+    padding: 2rem ;
+}
+
+.assinatura a{
+    color: var(--BlackColor);
+    text-decoration: none;
+}
+.assinatura a:first-child{
+    font-style: italic;
+}
+.assinatura a:last-child{
+    font-weight: bold;
+}
+.assinatura img{
+    width: 20px;
+    vertical-align: middle;
+}

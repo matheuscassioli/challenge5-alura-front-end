@@ -5,6 +5,7 @@ import Banner from "./componentes/banner";
 import Produtos from "../src/componentes/produtos";  
 import Categoria from "../src/componentes/categorias"
 import Rodape from "./componentes/rodape"; 
+import Assinatura from "./componentes/assinatura";
 
 import venderwhite from "../src/assets/img/vender-white.png"
 import dartblack from "../src/assets/img/dart-black.png"
@@ -27,6 +28,7 @@ import sonic from "../src/assets/img/sonic.png"
 import bluepink from "../src/assets/img/bluepink.png"
 import Var from "../src/assets/img/Var.png"
 import pikachu from "../src/assets/img/pikachu.png"
+
 
 
 
@@ -78,6 +80,7 @@ function App() {
 
         <Rodape />
 
+        <Assinatura />
  
     </main>
 

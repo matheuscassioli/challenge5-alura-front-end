@@ -21,8 +21,8 @@ export default function Rodape(){
 
        <form className="rodape__formulario">
            <p>Fale conosco</p>
-           <input type="text" className="rodape__formulario--nome" placeholder="  Nome:" />
-           <input type="text" className="rodape__formulario--mensagem" placeholder="   Escreva uma mensagem" />  
+           <input type="text" className="rodape__formulario--nome" placeholder="Nome:" />
+           <input type="text" className="rodape__formulario--mensagem" placeholder="Escreva uma mensagem" />  
            <button className="rodape__formulario--button">Envia mensagem</button>
        </form>
 
